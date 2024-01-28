@@ -1,15 +1,14 @@
-# Projet Bases de Données 2 - Liste de tâches
+# Database 2 - Task lists
 
-Projet de bases de données réalisé dans le cadre de l'UE "Bases de Données 2" pour la L3S5 Informatique à l'UFR Mathématique et Informatique Strasbourg.  
+Database project done for the course "Database 2" during my senior year of Bachelor in Computer Science at the University of Strasboug in France.
 
-Le but de ce projet est de réaliser la base de données pour une application de gestion de listes de tâches ("to-do" list).
+The goal of this project is to create a database for a to-do list management app.
 
-## Pour commencer  
+## Getting started  
 
-### Démarrage  
+### Setting the environment
 
-- Pour lancer le projet, ouvrez sqldeveloper et connectez-vous à la base de données Oracle puis allez dans Ficher &rarr; Ouvrir et sélectionnez tous les fichiers contenus dans le dossier scripts SQL
-
+- To launch the project, open sqldeveloper and connect to the Oracle database then go to File &rarr; Open and select all the files contained in the repositiory scripts SQL
 ```
 cd sqldeveloper
 ```
@@ -18,34 +17,34 @@ cd sqldeveloper
 . ./sqldeveloper.sh
 ```
 
-## Lancer le projet
+## To launch the project
 
-- Lancez le script **create.sql** 
+- Launch the script **create.sql** 
 
-![Capture_d_écran_du_2024-01-28_15-10-00](/uploads/0e87bfe3758d6b24c00286500d8c9eac/Capture_d_écran_du_2024-01-28_15-10-00.png)
+![Capture d’écran du 2024-01-28 15-10-00](https://github.com/jandreolli/project_list_database/assets/95167842/bb97cd58-5d58-41fa-bfad-13b030e6f820)
 
-## Structure des scripts SQL
+## SQL script structure
 
-+ **create.sql** : script qui permet de lancer la création des tables, l'insertion de donnée, de tester les procédures/fonction/déclencheurs
-+ **data.sql** : insertion de données dans les tables
-+ **declencheurs.sql** : les deux déclencheurs demandés
-+ **dropTables.sql** : suppression des tables et des contraintes
-+ **index.sql** : index nécessaires pour la partie sur les requêtes
-+ **procedures_fonctions.sql** : les trois procédures/fonctions demandées
-+ **requetes.sql** : les cinq requêtes demandées
-+ **tableCreate.sql** : script de création de table
-+ **triggers.sql** : les triggers que nous avons décidé d'implémenter et ceux demandés pour la partie 1
-+ **tests.sql** : les appels pour tester les procédures/fonctions/déclencheurs
++ **create.sql** : script that allows the creation of the tables, insertion of data and tests the procedures/functions/triggers
++ **data.sql** : insertion of data in the tables
++ **declencheurs.sql** : the two triggers
++ **dropTables.sql** : delete the tables and the constraints 
++ **index.sql** : index for the SQL-query
++ **procedures_fonctions.sql** : the three procedures/functions
++ **requetes.sql** : the 5 queries
++ **tableCreate.sql** : table creation script
++ **triggers.sql** : the triggers demanded and the ones we decided to implement
++ **tests.sql** : the calls to test the procédures/functions/triggers
 
-### Modèle entité-association (EA)
+### Mocodo Model
 
-![Model_EA](/uploads/e1853e460d2d209b2c664fe81ed67780/Model_EA.png)
+![Model_EA](https://github.com/jandreolli/project_list_database/assets/95167842/c113331a-ba72-4f45-a4b6-5b14c32d9367)
 
-### Modèle Entity Relationship Diagram (ERD)
+### Entity Relationship Diagram Model (ERD)
 
-![Modele_ERD](/uploads/8db52f570ae8460a03751db6956f14fa/Modele_ERD.png)
+![Modele_ERD](https://github.com/jandreolli/project_list_database/assets/95167842/aac9118b-050a-42f0-8e02-3e03697cf36a)
 
-## Auteurs  
+## Authors
 
 **Justine Andreolli**  _alias_ [@jandreolli](https://git.unistra.fr/jandreolli)  
 **Ali Hashemi** _alias_ [@s.hashemi](https://git.unistra.fr/s.hashemi) 
